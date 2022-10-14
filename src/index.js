@@ -24,7 +24,7 @@ function renderMarkupCountries(data) {
 const onInputEvent = (e) => {
   clearListInput();
   clearInfoInput();
-  inputValue = e.target.value.trim().toLowerCase()
+  const inputValue = e.target.value.trim().toLowerCase()
   if (!inputValue) {
     return;
   }
